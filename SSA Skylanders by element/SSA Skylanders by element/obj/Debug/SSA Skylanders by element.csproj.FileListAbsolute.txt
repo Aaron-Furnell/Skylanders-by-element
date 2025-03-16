@@ -1,0 +1,11 @@
+C:\Coding at home\C#\SSA Skylanders by element\SSA Skylanders by element\bin\Debug\SSA Skylanders by element.exe.config
+C:\Coding at home\C#\SSA Skylanders by element\SSA Skylanders by element\bin\Debug\SSA Skylanders by element.exe
+C:\Coding at home\C#\SSA Skylanders by element\SSA Skylanders by element\bin\Debug\SSA Skylanders by element.pdb
+C:\Coding at home\C#\SSA Skylanders by element\SSA Skylanders by element\obj\Debug\SSA Skylanders by element.csproj.AssemblyReference.cache
+C:\Coding at home\C#\SSA Skylanders by element\SSA Skylanders by element\obj\Debug\SSA_Skylanders_by_element.Form1.resources
+C:\Coding at home\C#\SSA Skylanders by element\SSA Skylanders by element\obj\Debug\SSA_Skylanders_by_element.Properties.Resources.resources
+C:\Coding at home\C#\SSA Skylanders by element\SSA Skylanders by element\obj\Debug\SSA_Skylanders_by_element.Resource1.resources
+C:\Coding at home\C#\SSA Skylanders by element\SSA Skylanders by element\obj\Debug\SSA Skylanders by element.csproj.GenerateResource.cache
+C:\Coding at home\C#\SSA Skylanders by element\SSA Skylanders by element\obj\Debug\SSA Skylanders by element.csproj.CoreCompileInputs.cache
+C:\Coding at home\C#\SSA Skylanders by element\SSA Skylanders by element\obj\Debug\SSA Skylanders by element.exe
+C:\Coding at home\C#\SSA Skylanders by element\SSA Skylanders by element\obj\Debug\SSA Skylanders by element.pdb

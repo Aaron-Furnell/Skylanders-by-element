@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Bash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bashCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_bash_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Boomer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boomer1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boomerCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_boomer_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Camo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Camo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="camoCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_camo_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChopChop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChopChop1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chopChopCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_chop_chop_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Cynder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cynder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cynderCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_cynder_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DinoRang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DinoRang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dinoRangCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_dino_rang_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DoubleTrouble" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DoubleTrouble.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doubleTroubleCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_double_trouble_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="drillSargeantCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_drill_sergeant_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DrillSergeant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DrillSergeant2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Drobot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Drobot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drobotCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_drobot_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Eruptor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Eruptor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eruptorCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_eruptor_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Flameslinger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flameslinger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flameslingerCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_flameslinger_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GhostRoaster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GhostRoaster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ghostRoasterCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_ghost_roaster_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GillGrunt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GillGrunt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gillGruntCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_gill_grunt_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Hex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hexCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_hex_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ignitor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ignitor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ignitorCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_ignitor_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LightningRod" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LightningRod2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lightningRodCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_lightning_rod_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PrismBreak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrismBreak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="prismBreakCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_prism_break_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SlamBam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SlamBam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="slamBamCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_slam_bam_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SonicBoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SonicBoom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sonicBoomCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_sonic_boom_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Spyro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spyro1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spyroCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_spyro_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StealthElf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StealthElf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stealthElfCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_stealth_elf_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="StumpSmash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StumpSmash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stumpSmashCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_stump_smash_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sunburn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sunburn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sunburnCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_sunburn_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Terrafin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Terrafin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="terrafinCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_terrafin_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TriggerHappy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TriggerHappy2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="triggerHappyCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_trigger_happy_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Voodood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voodood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="voodoodCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_voodood_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Warnado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Warnado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warnadoCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_warnado_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WhamShell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhamShell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whamShellCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_wham_shell_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Whirlwind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Whirlwind2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whirlwindCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_whirlwind_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WreckingBall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WreckingBall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wreckingBallCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_wrecking_ball_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Zap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zapCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_zap_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Zook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zookCatchphrase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vo_zook_catchphrase_01.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

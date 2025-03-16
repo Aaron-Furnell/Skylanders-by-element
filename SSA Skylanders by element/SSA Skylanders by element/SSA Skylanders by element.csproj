@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F2FCCD3F-80A5-4E67-99E6-588298462730}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SSA_Skylanders_by_element</RootNamespace>
+    <AssemblyName>SSA Skylanders by element</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boomer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChopChop1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cynder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DinoRang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoubleTrouble.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DrillSergeant2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drobot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eruptor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flameslinger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GhostRoaster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GillGrunt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ignitor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LightningRod2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrismBreak.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlamBam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SonicBoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spyro1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StealthElf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StumpSmash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sunburn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Terrafin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Whirlwind2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WreckingBall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TriggerHappy2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Voodood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warnado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhamShell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_bash_catchphrase_01.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_bash_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_boomer_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_camo_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_chop_chop_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_cynder_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_dino_rang_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_double_trouble_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_drill_sergeant_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_drobot_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_eruptor_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_flameslinger_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_ghost_roaster_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_gill_grunt_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_wrecking_ball_catchphrase_01.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_hex_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_ignitor_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_lightning_rod_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_prism_break_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_slam_bam_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_terrafin_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_sonic_boom_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_spyro_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_stealth_elf_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_stump_smash_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_sunburn_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_trigger_happy_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_voodood_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_warnado_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_wham_shell_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_whirlwind_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_wrecking_ball_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_zap_catchphrase_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vo_zook_catchphrase_01.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
